@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.yf.cs.wx-b</groupId>
+	<artifactId>wx-b</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>wx-b-app</module>
+		<module>wx-b-service</module>
+	</modules>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.3.RELEASE</version>
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<comp.version>0.0.1-SNAPSHOT</comp.version>
+		<comp.spring.boot.starter.version>0.0.1-SNAPSHOT</comp.spring.boot.starter.version>
+		<druid.version>1.1.2</druid.version>
+		<shiro.version>1.2.4</shiro.version>
+		<apollo.version>0.8.0</apollo.version>
+
+	</properties>
+
+	<dependencyManagement>
+
+	</dependencyManagement>
+</project>
