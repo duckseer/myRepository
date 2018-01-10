@@ -1,0 +1,6 @@
+/wx
+/wx-b/.idea
+/wx-b/*.iml
+/wx-b/wx-b-app/target
+/wx-b/wx-b-service/target
+*.iml
